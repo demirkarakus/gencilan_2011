@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(gencilan\.com)(:80)? [NC]
+RewriteRule ^(.*) http://www.gencilan.com/$1 [R=301,L]
+RewriteRule ^([a-z0-9_-]+)$ index.php?cat=$1 [L,NC]

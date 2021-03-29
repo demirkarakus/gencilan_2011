@@ -1,0 +1,33 @@
+.oneForm { margin:10px; }
+.oneForm label{ width:200px; float:left;font-weight:bold; line-height:28px; height:30px; text-align:right; padding-right:10px; }
+
+.oneForm input[type=text],input[type=password]{ width:220px; margin-bottom:10px; }
+.oneForm textarea{ width:220px; height:100px; margin-bottom:10px;}
+
+
+.editadsform{ height:400px;}
+
+.oneForm h1{
+	margin-bottom:10px;
+	padding-bottom:6px;
+	background:url(../h1_back.gif) bottom repeat-x;
+}
+
+button.button {
+    background: transparent url('../bg_button_a.png') no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 24px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+	cursor:pointer
+}
+button.button span {
+    background: transparent url('../bg_button_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+button.button:hover { background-position: bottom right; color: #fff; outline: none; /* hide dotted outline in Firefox */ }
+button.button:hover span { background-position: bottom left; padding: 6px 0 4px 18px; /* push text down 1px */ } 

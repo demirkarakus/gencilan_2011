@@ -1,0 +1,43 @@
+.header{ height:110px; background:url(../header_right.png) center top no-repeat;}
+
+/* header_top */
+.header_top{ height:79px;}
+
+.header_top p.logo{ float:left; margin:16px 10px 0px 10px; width:140px;}
+
+/* header_menu > menu_top */
+.header_top ul.menu_top{ float:right; margin:0px 10px 0px 10px; padding:0px; width:700px; height:48px; line-height:49px; }
+.header_top ul.menu_top li{ float:right; margin:0px 0px 0px 4px;}
+.header_top ul.menu_top li a{ color:#0066FF;}
+
+/* header_menu > menu_bottom */
+.header_top .menu_bottom { width:700px; float:right; margin:0px 10px 0px 10px; font-size:12px; font-weight:bold; padding:0px; line-height:30px;}
+.header_top .menu_bottom ul{ height:30px; float:right; width:700px; }
+.header_top .menu_bottom ul li{ list-style-type: none; display:inline; float:right; margin:0 0 0 10px; }
+.header_top .menu_bottom ul li a.button {
+    background: transparent url('../bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float:right;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+.header_top .menu_bottom ul li a.button span {
+    background: transparent url('../bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+.header_top .menu_bottom ul li a.button:hover { background-position: bottom right; color: #000; outline: none; /* hide dotted outline in Firefox */ }
+.header_top .menu_bottom ul li a.button:hover span { background-position: bottom left; padding: 6px 0 4px 18px; /* push text down 1px */ } 
+
+
+/* menu */
+.menu { height:36px; width:940px; float:left; position:relative; font-size:12px; font-weight:bold; margin:0px 10px 0px 10px; padding:0px; line-height:36px;}
+.menu ul{ margin:0; padding:0; list-style-type:none; float:left; width:940;}
+.menu ul li{display:block;float:left;margin:0 1px 1px 0px;}
+.menu ul li a{ display:block;float:left; color:#ffffff; text-decoration:none; padding:0px 20px 0px 0px;}
+.menu ul li a:hover, .menu ul li a:visited{color:#ffffff;}
+/* menu end*/

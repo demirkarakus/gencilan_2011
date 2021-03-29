@@ -1,0 +1,55 @@
+@import "header.css";
+@import "lightbox.css";
+@import "allads.css";
+@import "form.css";
+
+
+/* Global
+---------------------------------------------------------------------------------------------------*/
+
+body {
+	margin:0;
+	padding:0;
+	background: #ffffff url(../back.gif) top repeat-x; color: #333; font-size: 12px; font-family: Arial, Tahoma, Verdana;
+}
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+	margin:0;
+	padding:0;
+}
+ul,li {
+	list-style-type:none;
+}
+a, a:visited {color: #333333; text-decoration: none; cursor:pointer;}
+a:hover {color: #666666; text-decoration: underline;}
+a:focus, a:active {outline: none; text-decoration: underline;}
+
+img{ border:0; padding:0 ; margin:0;}
+
+p, h1, form, button{border:0; margin:0; padding:0;}
+
+.generalBorder{
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+}
+
+.clear{ clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{ clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+* html .clearfix,*:first-child+html .clearfix{ zoom:1}
+
+.note{  margin:0; padding:10px; border-bottom:1px #c0deed solid; border-top:1px #c0deed solid; background:#ddeef6; text-align:center;}
+.error{  margin:0; padding:10px; border-bottom:1px #edc0c0 solid; border-top:1px #edc0c0 solid; background:#f6dddd; text-align:center;}
+/* Global end
+---------------------------------------------------------------------------------------------------*/
+
+
+
+.container{width:960px;margin:0 auto; clear:both; /* background:url(../backgrid.jpg) center repeat-y */}
+
+
+
+
+
+
+
+

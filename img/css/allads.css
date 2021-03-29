@@ -1,0 +1,152 @@
+.allads .AdsListBox {
+	width: 960px;
+	list-style: none;
+	margin: 10px auto; padding: 0;
+}
+
+.allads .AdsListBox .ALboxes {
+	width: 140px;
+	height:140px;
+	float: left;
+	margin: 10px; padding: 0;
+}
+.allads .AdsListBox .ALboxes .ALBimg {
+	width: 136px;
+	height:80px;
+	float: left; display: inline;
+	margin: 0; padding: 0;
+	border:1px #cccccc solid;
+	padding:1px;
+	z-index:1;
+}
+.allads .AdsListBox .ALboxes .ALBimg .imgBox{
+	width:136px;
+	height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:2;
+	color:#fff;
+	text-align:center;
+	background-color:#FFFFFF;
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+.allads .AdsListBox .ALboxes .price {
+	width: 140px;
+	float: left;
+	padding:4px 0;
+	color:#3399FF;
+}
+.allads .AdsListBox .ALboxes .title {
+	width: 140px;
+	float: left;
+	padding:0;
+	color:#333333;
+}
+.allads .AdsListBox .ALboxes a {
+	text-decoration:none;
+}
+.allads .AdsListBox .ALboxes .datetimer {
+	width: 140px;
+	float: left;
+	padding:2px 0;
+	color:#999999;
+	font-size:10px;
+}
+.allads .AdsListBox .ALboxes .addNewAds{
+	color:#3399FF;
+	width: 140px;
+	float: left;
+	padding:16px 0 0 0;
+	font-size:14px;
+	text-align:center;
+}
+
+/* ads_box */
+.ads_box{
+	margin:10px;
+}
+.ads_box h1{
+	margin-bottom:10px;
+	padding-bottom:6px;
+	background:url(../h1_back.gif) bottom repeat-x;
+}
+.ads_box .ads_left_info .ads_img{
+	margin: 0; padding: 0;
+	position: relative;
+	border:1px #cccccc solid;
+	padding:1px;
+}
+.ads_box .ads_left_info{
+	float: left; display: inline;
+	margin: 0; padding: 0;
+	position: relative;
+}
+.ads_box .ads_left_info .wmLink, .ads_box .ads_left_info .lmLink{
+font-weight:bold;
+margin:10px;
+width:120px;
+text-align:center;
+}
+
+.ads_box .ads_info{
+	float: left;
+	margin: 0 0 0 10px; padding: 0;
+	width:417px;
+}
+
+.ads_box .ads_info ul .price { margin:0px 0px 0px 0px; border:none; text-align:left;  color:#FF0033; font-size:16px; font-weight:bold;} 
+.ads_box .ads_info ul .categories { margin:0px 0px 0px 0px; border:none; text-align:left; font-size:16px; font-weight:bold;} 
+.ads_box .ads_info ul li{ font-size:12px; padding:2px 0px 2px 0px; border-bottom:1px #ccc solid; border-bottom-style:dashed; text-align:right;}
+.ads_box .ads_info ul li span{ margin:0 0 0 0px; float:left; text-align:left;}
+
+
+.explaination{border-bottom:1px #cccccc solid; padding:10px 0;}
+.explaination h1{
+	margin-bottom:10px;
+	padding-bottom:6px;
+	background:none;
+	border-bottom:1px #cccccc solid;
+}
+
+.big_img{ text-align:center; margin:10px;}
+
+
+
+.load_fullmyads{ width:568px; margin: 10px; border-bottom:1px #cccccc solid; padding:0 0 10px 0; }
+
+.myadsListImg {
+	width: 136px;
+	height:80px;
+	float: left; display: inline;
+	padding: 0;
+	position: relative;
+	border:1px #cccccc solid;
+	padding:1px;
+}
+.myadsListImg p{
+	display:block;
+	float:left;
+	width:136px;
+	height:80px;
+	line-height:30px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	color:#fff;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+.myadsListImg p img{
+	/*min-height:80px;
+	min-width:136px;*/
+}
+.myadsListInfo { width:367px; float:left; margin:0 0 0 10px; }
+.load_myadsListEdit { width:50px; float:left; margin:0; text-align:right;}
+
+
+
+
+.imgUpload{
+	text-align:center;
+}
